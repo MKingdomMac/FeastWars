@@ -32,5 +32,8 @@ public class PlayerAnimationBehaviour : MonoBehaviour
         playerAnimator.SetTrigger(playerAttackAnimationID);
     }
 
-
+    public void PlayJumpAnimation()
+    {
+        playerAnimator.SetTrigger("Jump");
+    }
 }

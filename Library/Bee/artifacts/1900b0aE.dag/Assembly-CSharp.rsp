@@ -433,6 +433,7 @@
 "Assets/PlayerController.cs"
 "Assets/RenderPipeline/RenderPasses/KawaseBlur.cs"
 "Assets/Scripts/Behaviours/Player/PlayerAnimationBehaviour.cs"
+"Assets/Scripts/Behaviours/Player/PlayerCharacterCamera.cs"
 "Assets/Scripts/Behaviours/Player/PlayerController.cs"
 "Assets/Scripts/Behaviours/Player/PlayerMovementBehaviour.cs"
 "Assets/Scripts/Behaviours/Player/PlayerUIDisplayBehaviour.cs"

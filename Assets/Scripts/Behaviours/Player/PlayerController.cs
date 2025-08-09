@@ -63,6 +63,15 @@ public class PlayerController : MonoBehaviour
             playerAnimationBehaviour.PlayAttackAnimation();
         }
     }
+    //This is called from Player Input, when a button has been pushed, that corresponds with the 'Jump' action
+    public void OnJump(InputAction.CallbackContext value)
+    {
+        if(value.started)
+        {
+            playerAnimationBehaviour.PlayJumpAnimation();
+        }
+    }
+
 
     //This is called from Player Input, when a button has been pushed, that correspons with the 'TogglePause' action
     public void OnTogglePause(InputAction.CallbackContext value)
